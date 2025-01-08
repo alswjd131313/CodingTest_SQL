@@ -1,0 +1,11 @@
+/*
+결과컬럼 : i.FLAVOR
+조건 : 총 주문량 3000보다 높음, fruit_based, TOTAL_ORDER 큰 순서대로
+*/
+
+SELECT i.FLAVOR
+FROM ICECREAM_INFO AS i
+JOIN FIRST_HALF AS f
+ON i.FLAVOR = f.FLAVOR
+WHERE f.TOTAL_ORDER > 3000 AND i.INGREDIENT_TYPE = 'fruit_based'
+ORDER BY f.TOTAL_ORDER DESC;
