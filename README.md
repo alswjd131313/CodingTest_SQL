@@ -1,7 +1,7 @@
 ## CodingTest_SQL
 - 문제 : 프로그래머스 SQL 고득점 kit
 - 날짜 : 2025.01.07 ~
-- 링크 : https://school.programmers.co.kr/learn/courses/30/parts/17042
+- 링크 : https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit
 
 
 ### 문제 풀 때
