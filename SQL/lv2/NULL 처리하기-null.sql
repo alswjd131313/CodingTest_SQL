@@ -1,0 +1,8 @@
+/*
+결과 컬럼 : ANIMAL_TYPE, NAME, SEX_UPON_INTAKE
+조건 : 동물의 생물종, 이름, 성별, 중성화 여부 아이디순으로 조회, 이름 없는 동물은 NO NAME으로
+*/
+
+SELECT ANIMAL_TYPE, IF(NAME IS NULL, "No name", NAME) AS NAME, SEX_UPON_INTAKE
+FROM ANIMAL_INS
+ORDER BY ANIMAL_ID
