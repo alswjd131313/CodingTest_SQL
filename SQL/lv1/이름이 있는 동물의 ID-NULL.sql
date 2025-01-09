@@ -1,0 +1,8 @@
+/*
+결과 컬럼 : ANIMAL_ID
+조건 : 이름이 있는 동물의 id 조회
+*/
+SELECT ANIMAL_ID
+FROM ANIMAL_INS
+WHERE NAME IS NOT NULL
+ORDER BY ANIMAL_ID
